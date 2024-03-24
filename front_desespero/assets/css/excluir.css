@@ -1,0 +1,26 @@
+.modal-j-delete {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.titulo {
+    margin-bottom: 20px; 
+}
+
+.paragrafo {
+    margin-bottom: 20px; 
+}
+
+.btns {
+    display: flex; 
+    justify-content: center;
+}
+
+.btn {
+    margin: 5px;
+}

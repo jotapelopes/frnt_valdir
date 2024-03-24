@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Curso</title>
+    <link rel="stylesheet" href="./assets/css/novoCurso.css">
+</head>
+<body>
+    <div class="login-page">
+        <div class="form">
+          <div class="login-form" id="login-form">
+            <h1>Cadastrar Curso</h1>
+            <p class="error" id="errorNome" hidden>Informe o nome do curso</p>
+            <input type="text" placeholder="Nome do curso" id="nomeCurso"/>
+            <p class="error" id="errorCoordenador" hidden>Informe o coordenador</p>
+            <input type="text" placeholder="Coordenador" id="txtCoordenador"/>
+            <p class="error" id="errorArea" hidden>Informe a área</p>
+            <input type="text" placeholder="Área" id="txtArea"/>
+            <p class="error" id="errorTurno" hidden>Informe o turno</p>
+            <input type="text" placeholder="Turno" id="txtTurno"/>
+            <p class="error" id="errorPeriodo" hidden>Informe o período</p>
+            <input type="text" placeholder="Período" id="txtPeriodo"/>
+            <button onclick="cadastrar()" class="register-button">Cadastrar</button>
+            <a href="index.html"><button  class="cancel-button">Cancelar</button></a>
+          </div>
+        </div>
+      </div>
+</body>
+<script src="./assets/js/index.js"></script>
+</html>

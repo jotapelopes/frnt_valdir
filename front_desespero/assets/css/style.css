@@ -1,0 +1,44 @@
+.list {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    border: 1px solid #ced4da;
+    max-width: 80%;
+    margin: 20px auto 0;
+}
+
+h1 {
+    margin: 15px auto;
+    color: #343a40;
+    text-align: center;
+}
+
+.input-group-text {
+    background-color: #007bff;
+    color: #ffffff;
+    border-color: #007bff;
+}
+
+.input-group {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.table {
+    margin: 20px auto;
+    width: 80%; 
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+}
+
+.table a {
+    color: #343a40;
+}
+
+.table i {
+    font-size: 16px;
+}
